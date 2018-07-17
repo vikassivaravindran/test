@@ -75,7 +75,7 @@ public class CustomerController {
 		
 		if(customerId != null){
 			if(logger.isInfoEnabled()){
-				logger.info("Deleting the customer with customer id "+customerId);
+				logger.info("Deleting the customer id details as mentioned below"+customerId);
 			}
 			 customerService.deleteCustomer(customerId);
 		}		
